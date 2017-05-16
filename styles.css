@@ -1,0 +1,78 @@
+h1{
+	font-family: 'Petit Formal Script', cursive;
+	color: rgb(155, 20, 30)
+}
+
+.container {
+	text-align: center;
+	padding-top: 60px;
+}
+
+form {
+	width: 100%;
+	padding: 120px 10px 60px 10px;
+	background-color: rgb(235, 235, 235)
+}
+
+select {
+	font-size: 1em;
+	background-color: #fff;
+	color: rgb(125,180,80);
+	width: 49%;
+	display: inline-block;
+	border:none;
+	border-radius: 0;
+	-webkit-appearance:none;
+	height: 40px;
+	padding: 8px 10px 8px 10px;
+}
+
+select::-ms-expand {
+	display: none;
+}
+
+.selectdiv:after {
+	content: '<';
+	font: 1em "Open Sans", monospace;
+	color: #333;
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	transform: rotate(270deg);
+	right:11px;
+	top: 3px;
+	padding: 10px 10px 2px;
+	position: absolute;
+	pointer-events: none;
+}
+
+.search {
+	margin-top: 30px;
+	height: 40px;
+	width: 25%;
+	border:none;
+	background-color: rgb(155, 20, 30);
+	color: white;
+	font: 1em "Open Sans", monospace;
+
+}
+
+.blue{
+	background-color: blue;
+	width:100px;
+	height: 100px;
+}
+
+.red{
+	background-color: red;
+	width:100px;
+	height: 100px;
+}
+
+.circle {
+	border-radius: 50%;
+}
+
+.fade{
+	filter: grayscale(100%);
+}
